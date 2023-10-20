@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(101, 93, 82);
+}
+
+input{
+    margin-top: 40px;
+}
+
+p{
+    margin-top: 40px;
+    text-align: center;
+    width: 390px;
+    margin-bottom: 20PX;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+header{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: black;
+    padding: 50px;
+    margin-top: 30px;
+    width: 600px;
+}
+
+footer{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#color{
+    margin-top: 20px;
+}
+
+.profile{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.photo{
+    margin-top: 20px;
+    border-radius: 140px;
+    width: 230px;
+    height: 190px;
+}
+
+.Name{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.reds{
+    display: flex;
+    justify-content: space-around;
+    width: 600PX;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
